@@ -35,16 +35,70 @@ function SongList() {
   return (
     <>
       <ul>
-        <li>7, release date: 2016 <img src="#"></img> <LikeButton /></li>
-        <li>Anything, release date: 2016 <img src="#"></img> <LikeButton /></li>
-        <li>Cocoon, release date: 2014 <img src="#"></img> <LikeButton /></li>
-        <li>Fallout, release date: 2014 <img src="#"></img> <LikeButton /></li>
-        <li>Homesick, release date: 2014 <img src="#"></img> <LikeButton /></li>
-        <li>Hourglass, release date: 2014 <img src="#"></img> <LikeButton /></li>
-        <li>Kathleen, release date: 2014 <img src="#"></img> <LikeButton /></li>
-        <li>Pacifier, release date: 2014 <img src="#"></img> <LikeButton /></li>
-        <li>Twice, release date: 2016 <img src="#"></img> <LikeButton /></li>
-        <li>Soundcheck, release date: 2016 <img src="#"></img> <LikeButton /></li>
+        <li>
+          <img src="../src/assets/CATB2016.jpg"></img>7
+          <div>
+            <p>Release date: 2016</p>
+            {/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, quia.</p> */}
+          </div>
+          <span id="right">  <LikeButton /></span>
+          
+        </li>
+        <li>
+          <img src="../src/assets/CATB2016.jpg"></img>Anything
+          <div>
+            <p>Release date: 2016</p>
+            {/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, quia.</p> */}
+          </div>
+          <span><LikeButton /></span>
+        </li>
+        <li>
+          <img src="../src/assets/CATB2014.jpg"></img>Cocoon
+          <div>
+            <p>release date: 2014</p>
+            {/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, quia.</p> */}
+          </div>
+          <span><LikeButton /></span>
+        </li>
+        <li>
+          <img src="../src/assets/CATB2014.jpg"></img>Fallout
+          <div>
+            <p>release date: 2014</p>  </div>
+          <span><LikeButton /></span>
+        </li>
+        <li>
+          <img src="../src/assets/CATB2014.jpg"></img>Homesick
+          <div>
+            <p>release date: 2014</p>  </div>
+          <span><LikeButton /></span>
+          </li>
+        <li>
+          <img src="../src/assets/CATB2014.jpg"></img>Hourglass
+          <div>
+            <p>release date: 2014</p>  </div>
+          <span><LikeButton /></span>
+        </li>
+        <li>
+          <img src="../src/assets/CATB2014.jpg"></img>Kathleen
+          <span><LikeButton /></span>
+          </li>
+        <li>
+          <img src="../src/assets/CATB2014.jpg"></img>Pacifier
+          <div>
+            <p>release date: 2014</p>  </div>
+          <span><LikeButton /></span>
+        </li>
+        <li>
+          <img src="../src/assets/CATB2016.jpg"></img>Twice
+          <div>release date: 2016  </div>
+          <span><LikeButton /></span>
+        </li>
+        <li>
+          <img src="../src/assets/CATB2016.jpg"></img>Soundcheck
+          <div>
+            <p>release date: 2016</p>  </div>
+          <span><LikeButton /></span>
+        </li>
       </ul>
     </>
   )

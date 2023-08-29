@@ -42,5 +42,29 @@
 }
 
 li {
+  font-size: 1rem;
   list-style: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.069);
+  display: flex;
+  position: relative;
+  /* background-color: purple; */
+  padding: 15px 0;
+}
+
+span {
+  text-align: right;
+  width: 99%;
+  justify-content: center;
+}
+
+li div {
+  text-align: left;
+  position: absolute;
+  top: 2.3rem;
+  left: 8rem;
+}
+
+img {
+  width: 7rem;
+  margin-right: 1rem;
 }
