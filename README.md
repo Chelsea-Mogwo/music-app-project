@@ -1,6 +1,6 @@
-# React + Vite
+# Music App Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is created using a template that provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
