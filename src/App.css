@@ -68,3 +68,24 @@ img {
   width: 7rem;
   margin-right: 1rem;
 }
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+section img {
+  width: 20rem;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+section img:hover {
+  border: solid 0.15rem rgba(255, 255, 255, 0.402);
+}
+
+section button {
+  background-color: #242424;
+  border: 0;
+}

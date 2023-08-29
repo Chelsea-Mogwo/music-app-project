@@ -28,12 +28,32 @@ function LikeButton() {
     </>
   )
 }
-  
 
-function SongList() {
+function Albums() {
+  return (
+    <>
+    <h3>Albums</h3>
+    <section>
+      <button>
+        <img src="../src/assets/The_Balance2019.png" alt="The Balance Album" />
+      </button>
+      <button>
+        <img src="../src/assets/CATB2016.jpg"></img>
+      </button>
+      <button>
+        <img src="../src/assets/CATB2014.jpg"></img>
+      </button>
+      
+    </section>
+    </>
+  )
+}
+
+function TopSongList() {
 
   return (
     <>
+    <h3>Top Songs</h3>
       <ul>
         <li>
           <img src="../src/assets/CATB2016.jpg"></img>7
@@ -112,7 +132,8 @@ function ArtistInfo() {
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
         Sunt laborum ducimus architecto cupiditate voluptates porro 
         error, magnam dolorem nam iusto.</p>
-      <SongList />
+      <Albums />
+      <TopSongList />
     </>
   )
 }
