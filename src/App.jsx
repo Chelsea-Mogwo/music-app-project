@@ -36,7 +36,6 @@ function TheBalanceSongs() {
       <img src="../src/assets/CATB2016.jpg"></img>7
       <div>
             <p>Release date: 2016</p>
-            {/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, quia.</p> */}
           </div>
           <span id="right">  <LikeButton /></span>
     </>
@@ -56,7 +55,7 @@ function Albums() {
     <>
     <h3>Albums</h3>
     <section>
-      <button>
+      <button onClick={TheBalanceSongs}>
         <img src="../src/assets/The_Balance2019.png" alt="The Balance Album" />
       </button>
       <button>
