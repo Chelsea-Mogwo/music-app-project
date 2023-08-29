@@ -47,7 +47,6 @@ li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.069);
   display: flex;
   position: relative;
-  /* background-color: purple; */
   padding: 15px 0;
 }
 
@@ -62,6 +61,9 @@ li div {
   position: absolute;
   top: 2.3rem;
   left: 8rem;
+}
+#dark-button {
+  background-color: #1a1a1a;
 }
 
 img {
@@ -79,13 +81,20 @@ section img {
   width: 20rem;
   padding: 10px;
   box-sizing: border-box;
+  transition: transform .2s;
 }
 
 section img:hover {
+  transform: scale(1.1);
   border: solid 0.15rem rgba(255, 255, 255, 0.402);
 }
 
 section button {
   background-color: #242424;
-  border: 0;
+  border: none;
+}
+
+section button:focus,
+section button:focus-visible {
+  outline: none;
 }
