@@ -5,6 +5,7 @@ import TopSongList from '../TopSongList'
 function ArtistInfo() {
     return (
       <>
+      <div className='container'>
         <h1>Catfish and the Bottlemen</h1>
         <h2>Alt</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -12,6 +13,7 @@ function ArtistInfo() {
           error, magnam dolorem nam iusto.</p>
         <Albums />
         <TopSongList />
+      </div>
       </>
     )
   }

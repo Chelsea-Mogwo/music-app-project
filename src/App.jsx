@@ -1,5 +1,7 @@
 import React from "react"
-import { ArtistInfo} from "./components"
+import { Routes, Route } from 'react-router-dom'
+import { NavBar } from './assets/Layout'
+import * as Pages from './assets/Pages'
 import './App.css'
 
 
@@ -19,7 +21,12 @@ import './App.css'
 export default function Artist() {
   return (
     <>
-    <ArtistInfo />
+      <Routes>
+        <Route path="/" element={<NavBar />}>
+          <Route index element={<Pages.Home />} />
+          <Route path="/albums" element={<Pages.Albums />}/>
+        </Route>
+      </Routes>
     </>
   )
 
